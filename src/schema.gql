@@ -10,5 +10,5 @@ type Query {
   getNumberRandom: Float!
 
   """random del 0 al 10"""
-  randomFromZeroTo: Int!
+  randomFromZeroTo(to: Int): Int!
 }
